@@ -1,0 +1,27 @@
+{
+  "name": "manyao-player",
+  "version": "1.0.0",
+  "description": "Manyao (慢摇) Music Player PWA with YouTube SkipCut, SoundCloud, and Mixcloud editions for Cloudflare Pages",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev . --port 8788",
+    "deploy": "wrangler pages deploy . --project-name=manyao",
+    "preview": "wrangler pages dev .",
+    "serve:py": "python3 server.py 8080"
+  },
+  "devDependencies": {
+    "wrangler": "^4.132.0"
+  },
+  "keywords": [
+    "manyao",
+    "pwa",
+    "music-player",
+    "soundcloud",
+    "mixcloud",
+    "youtube",
+    "skipcut",
+    "cloudflare-pages"
+  ],
+  "author": "",
+  "license": "MIT"
+}

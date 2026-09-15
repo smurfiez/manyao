@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0a0f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Manyao SoundCloud Player — Long-form Manyao mixes > 1 Hour">
+
+  <title>Manyao Player — SoundCloud (>1 hr)</title>
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+
+    <!-- ── Header ──────────────────────────────────────────── -->
+    <header class="header">
+      <div class="header-inner">
+        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+          <h1 class="app-title">Manyao Player</h1>
+          <nav class="platform-nav" aria-label="Platform Selector">
+            <a href="index.html" class="platform-tab tab-yt" title="YouTube Player">▶ YouTube</a>
+            <a href="soundcloud.html" class="platform-tab tab-sc active" title="SoundCloud Player (>1 hr)">☁ SoundCloud</a>
+            <a href="mixcloud.html" class="platform-tab tab-mc" title="Mixcloud Player (>1 hr)">🎧 Mixcloud</a>
+          </nav>
+          <span class="platform-filter-tag">⏱ &gt; 1 HR ONLY</span>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <button class="btn-random" id="btn-random" aria-label="Random SoundCloud Mixes" title="Generate 10 random Manyao mixes >1 hr via SoundCloud API">
+            <span class="dice-icon">🎲</span>
+            <span class="btn-random-text">Random Mixes</span>
+          </button>
+          <button class="btn-add" id="btn-add" aria-label="Add Track">
+            <span>＋</span>
+            <span>Add URL</span>
+          </button>
+          <button class="btn-icon" id="btn-reset" title="Refresh mixes" aria-label="Refresh mixes">↻</button>
+          <button class="btn-icon danger" id="btn-clear" title="Clear playlist" aria-label="Clear playlist">🗑</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ── Main Content ────────────────────────────────────── -->
+    <main class="main-content">
+      <div class="content-wrapper">
+
+        <!-- Empty State -->
+        <div class="empty-state hidden" id="empty-state">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+          </svg>
+          <h3>No SoundCloud mixes yet</h3>
+          <p>Click below to discover 10 non-stop Manyao DJ sets longer than 1 hour</p>
+          <button class="btn-random" id="btn-empty-random" style="margin-top: 16px;">
+            <span class="dice-icon">🎲</span>
+            <span>Generate 10 SoundCloud Sets (&gt; 1 hr)</span>
+          </button>
+        </div>
+
+        <!-- Playlist -->
+        <div class="playlist" id="playlist-container">
+          <!-- Rendered by JS -->
+        </div>
+
+      </div>
+    </main>
+
+    <!-- ── Now Playing Bar ─────────────────────────────────── -->
+    <div class="now-playing" id="now-playing">
+      <!-- Progress Bar -->
+      <div class="progress-container" id="progress-bar">
+        <div class="progress-track">
+          <div class="progress-played" id="progress-filled"></div>
+          <div class="progress-thumb"></div>
+        </div>
+      </div>
+
+      <div class="now-playing-inner">
+        <!-- Song Info -->
+        <div class="now-playing-info">
+          <img class="now-playing-thumb hidden" id="np-thumb" src="" alt="Now playing thumbnail">
+          <div class="now-playing-text">
+            <div class="marquee-container">
+              <span class="now-playing-title" id="np-title">No mix selected</span>
+            </div>
+            <span class="now-playing-artist" id="np-channel">Click Random to load Manyao sets</span>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="now-playing-controls">
+          <button class="btn-control" id="btn-shuffle" aria-label="Shuffle" title="Shuffle">🔀</button>
+          <button class="btn-control" id="btn-prev" aria-label="Previous" title="Previous">⏮</button>
+          <button class="btn-play" id="btn-play" aria-label="Play" title="Play">▶</button>
+          <button class="btn-control" id="btn-next" aria-label="Next" title="Next">⏭</button>
+          <button class="btn-control" id="btn-repeat" aria-label="Repeat" title="Repeat">🔁</button>
+          <button class="btn-control" id="btn-airplay" aria-label="AirPlay" title="AirPlay / Remote Playback">
+            <svg class="airplay-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"/>
+              <polygon points="12 15 17 21 7 21 12 15" fill="currentColor"/>
+            </svg>
+          </button>
+          <button class="btn-control" id="btn-toggle-widget" aria-label="Toggle SoundCloud Widget" title="Toggle SoundCloud Player Card (V)">
+            ☁
+          </button>
+        </div>
+
+        <!-- Volume, Time & External link -->
+        <div class="now-playing-extra">
+          <a class="btn-skipcut" id="btn-open-external" href="https://soundcloud.com" target="_blank" rel="noopener" title="Open on SoundCloud.com">
+            <span>☁</span> SoundCloud
+          </a>
+          <span class="time-display" id="time-current">0:00</span>
+          <span class="time-separator">/</span>
+          <span class="time-display" id="time-duration">0:00</span>
+          <div class="volume-container">
+            <span id="volume-icon">🔊</span>
+            <input type="range" class="volume-slider" id="volume-slider"
+                   min="0" max="100" value="80" aria-label="Volume">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Add Song Modal ──────────────────────────────────── -->
+    <div class="modal-overlay" id="modal-overlay">
+      <div class="modal">
+        <div class="modal-header">
+          <h2 class="modal-title">Add SoundCloud Track</h2>
+          <button class="btn-icon" id="modal-close" aria-label="Close">✕</button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group">
+            <label for="url-input">SoundCloud Track URL</label>
+            <input type="text" class="form-input" id="url-input"
+                   placeholder="https://soundcloud.com/artist/track-name"
+                   autocomplete="off" spellcheck="false">
+          </div>
+          <p style="font-size:0.8rem;color:var(--text-muted);">
+            Paste any SoundCloud song or nonstop DJ set link
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" id="modal-cancel">Cancel</button>
+          <button class="btn btn-primary" id="btn-add-confirm">Add Track</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Toast Container ─────────────────────────────────── -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- ── SoundCloud Widget Player Container ──────────────── -->
+    <div id="sc-widget-container" class="minimized">
+      <div class="yt-player-header">
+        <span class="yt-player-title">☁ SoundCloud Player (>1 hr)</span>
+        <div class="yt-player-actions">
+          <button class="btn-icon" id="btn-close-widget" title="Minimize Player" aria-label="Minimize">✕</button>
+        </div>
+      </div>
+      <div class="widget-frame-wrapper">
+        <iframe id="sc-widget"
+                allow="autoplay; encrypted-media; picture-in-picture; airplay"
+                x-webkit-airplay="allow"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false">
+        </iframe>
+      </div>
+    </div>
+
+    <!-- WebKit AirPlay & RemotePlayback Media Bridge Element -->
+    <video id="airplay-bridge" x-webkit-airplay="allow" playsinline preload="auto" style="position:fixed;width:1px;height:1px;opacity:0.001;pointer-events:none;bottom:0;right:0;"></video>
+
+  </div>
+
+  <script src="https://w.soundcloud.com/player/api.js"></script>
+  <script src="soundcloud.js"></script>
+</body>
+</html>

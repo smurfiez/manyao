@@ -1,0 +1,8 @@
+name = "manyao"
+compatibility_date = "2024-09-01"
+pages_build_output_dir = "."
+
+# Environment variables (can also be configured in Cloudflare Pages dashboard)
+[vars]
+# SOUNDCLOUD_CLIENT_ID = "Pb72ranhoyt6gw7hM7TkzUItXlMWSNSo"
+# YOUTUBE_API_KEY = ""
