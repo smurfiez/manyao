@@ -31,8 +31,8 @@ npx wrangler pages dev . --port 8788
 
 Open:
 - **YouTube Edition**: [http://localhost:8788/](http://localhost:8788/)
-- **SoundCloud Edition (>1hr)**: [http://localhost:8788/soundcloud.html](http://localhost:8788/soundcloud.html)
-- **Mixcloud Edition (>1hr)**: [http://localhost:8788/mixcloud.html](http://localhost:8788/mixcloud.html)
+- **SoundCloud Edition (>1hr)**: [http://localhost:8788/soundcloud](http://localhost:8788/soundcloud)
+- **Mixcloud Edition (>1hr)**: [http://localhost:8788/mixcloud](http://localhost:8788/mixcloud)
 
 *(Optional: If you prefer running without Node.js, `python3 server.py 8080` remains available as a local fallback.)*
 

@@ -1,9 +1,11 @@
-const CACHE_NAME = 'manyao-v5';
+const CACHE_NAME = 'manyao-v6';
 const ASSETS = [
   '/',
   '/index.html',
+  '/soundcloud',
   '/soundcloud.html',
   '/soundcloud.js',
+  '/mixcloud',
   '/mixcloud.html',
   '/mixcloud.js',
   '/style.css',
