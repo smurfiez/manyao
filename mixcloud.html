@@ -6,6 +6,8 @@
   <meta name="theme-color" content="#0a0a0f">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Manyao Mixcloud">
   <meta name="description" content="Manyao Mixcloud Player — Long-form Manyao DJ mixes & nonstop cloudcasts > 1 Hour">
 
   <title>Manyao Player — Mixcloud (>1 hr)</title>
@@ -167,15 +169,18 @@
       </div>
       <div class="widget-frame-wrapper">
         <iframe id="mc-widget"
-                allow="autoplay; encrypted-media; picture-in-picture; airplay"
+                allow="autoplay *; encrypted-media *; picture-in-picture *; airplay *"
                 x-webkit-airplay="allow"
-                src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=0&light=0&feed=%2Fspartacus%2Fparty-time%2F">
+                src="https://player-widget.mixcloud.com/?hide_cover=1&mini=1&light=0&feed=%2Fjarty-ye%2F%25E4%25B8%258D%25E6%2583%25B3v3%25E6%25B5%25AA%25E4%25BA%25BA%25E7%2590%25B5%25E7%2590%25B6%25E6%2584%259F%25E8%25AC%259D%25E4%25BD%25A0%25E6%259B%25BE%25E4%25BE%2586%25E9%2581%258Ermx-2k18-private-nonstop-manyao-just-for-ah-qun-by-dj-ye%2F">
         </iframe>
       </div>
     </div>
 
     <!-- WebKit AirPlay & RemotePlayback Media Bridge Element -->
     <video id="airplay-bridge" x-webkit-airplay="allow" playsinline preload="auto" style="position:fixed;width:1px;height:1px;opacity:0.001;pointer-events:none;bottom:0;right:0;"></video>
+
+    <!-- iOS & Android Background Audio Session Anchor Element -->
+    <audio id="bg-audio-anchor" loop playsinline preload="auto" style="position:fixed;width:1px;height:1px;opacity:0.001;pointer-events:none;bottom:0;left:0;"></audio>
 
   </div>
 

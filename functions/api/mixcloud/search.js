@@ -11,44 +11,64 @@ const MANYAO_MIX_QUERIES = [
 
 const FALLBACK_MIXCLOUD_MIXES = [
   {
-    id: "/DjMCXJELLO/chinese-dj-remix-177-%E5%8F%AA%E6%98%AF%E5%A4%AA%E7%88%B1%E4%BD%A0-x-%E6%80%9D%E5%BF%B5%E6%98%AF%E4%B8%80%E6%8A%8A%E5%88%80-x-%E6%9C%88%E7%89%99%E6%B9%BE-x-%E6%A2%81%E5%B1%B1%E4%BC%AF%E4%B8%8E%E6%9C%B1%E4%B8%BD%E5%8F%B6-x-%E5%9C%A8%E4%BA%BA%E9%97%B4-jan-nonstop-electrobounce-remix-2k22/",
-    key: "/DjMCXJELLO/chinese-dj-remix-177-%E5%8F%AA%E6%98%AF%E5%A4%AA%E7%88%B1%E4%BD%A0-x-%E6%80%9D%E5%BF%B5%E6%98%AF%E4%B8%80%E6%8A%8A%E5%88%80-x-%E6%9C%88%E7%89%99%E6%B9%BE-x-%E6%A2%81%E5%B1%B1%E4%BC%AF%E4%B8%8E%E6%9C%B1%E4%B8%BD%E5%8F%B6-x-%E5%9C%A8%E4%BA%BA%E9%97%B4-jan-nonstop-electrobounce-remix-2k22/",
-    title: "【 Chinese Dj Remix 177 】只是太爱你 X 思念是一把刀 X 月牙湾 X 梁山伯与朱丽叶 X 在人间 Jan Nonstop ElectroBounce Remix 2k22",
-    channel: "JAN (MusicEvolutionRemix)",
-    duration: 3647,
-    duration_formatted: "1 hrs",
-    url: "https://www.mixcloud.com/DjMCXJELLO/chinese-dj-remix-177-%E5%8F%AA%E6%98%AF%E5%A4%AA%E7%88%B1%E4%BD%A0-x-%E6%80%9D%E5%BF%B5%E6%98%AF%E4%B8%80%E6%8A%8A%E5%88%80-x-%E6%9C%88%E7%89%99%E6%B9%BE-x-%E6%A2%81%E5%B1%B1%E4%BC%AF%E4%B8%8E%E6%9C%B1%E4%B8%BD%E5%8F%B6-x-%E5%9C%A8%E4%BA%BA%E9%97%B4-jan-nonstop-electrobounce-remix-2k22/",
-    artwork: "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/0/4/e/d/dce4-b4ca-4273-873c-a6cf21366956"
+    id: "/jarty-ye/%E4%B8%8D%E6%83%B3v3%E6%B5%AA%E4%BA%BA%E7%90%B5%E7%90%B6%E6%84%9F%E8%AC%9D%E4%BD%A0%E6%9B%BE%E4%BE%86%E9%81%8Ermx-2k18-private-nonstop-manyao-just-for-ah-qun-by-dj-ye/",
+    key: "/jarty-ye/%E4%B8%8D%E6%83%B3v3%E6%B5%AA%E4%BA%BA%E7%90%B5%E7%90%B6%E6%84%9F%E8%AC%9D%E4%BD%A0%E6%9B%BE%E4%BE%86%E9%81%8Ermx-2k18-private-nonstop-manyao-just-for-ah-qun-by-dj-ye/",
+    title: "不想V3●浪人琵琶●感謝你曾來過RMX 2K18 PRIVATE NONSTOP MANYAO JUST FOR Ah Qun BY DJ Ye",
+    channel: "DJ'YE",
+    duration: 3843,
+    duration_formatted: "1h 4m",
+    url: "https://www.mixcloud.com/jarty-ye/%E4%B8%8D%E6%83%B3v3%E6%B5%AA%E4%BA%BA%E7%90%B5%E7%90%B6%E6%84%9F%E8%AC%9D%E4%BD%A0%E6%9B%BE%E4%BE%86%E9%81%8Ermx-2k18-private-nonstop-manyao-just-for-ah-qun-by-dj-ye/",
+    artwork: "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/a/0/b/e928-f6f2-4941-b12a-87420837c3db"
   },
   {
-    id: "/dj-ccs/dj-ccs-%E8%B2%A1%E7%A5%9E%E5%88%B0-%E5%8B%87%E6%B0%94%E6%A3%92%E5%98%9F%E5%98%9F-%E8%B1%AC%E4%BD%A0%E7%99%BC%E5%A4%A7%E8%B2%A1cny-2019-%E6%96%B0%E5%B9%B4%E6%AD%8C%E4%B8%B2%E7%83%A7happy-chinese-new-year-2019-nonstop-remix-dj-ccs/",
-    key: "/dj-ccs/dj-ccs-%E8%B2%A1%E7%A5%9E%E5%88%B0-%E5%8B%87%E6%B0%94%E6%A3%92%E5%98%9F%E5%98%9F-%E8%B1%AC%E4%BD%A0%E7%99%BC%E5%A4%A7%E8%B2%A1cny-2019-%E6%96%B0%E5%B9%B4%E6%AD%8C%E4%B8%B2%E7%83%A7happy-chinese-new-year-2019-nonstop-remix-dj-ccs/",
-    title: "DJ-CCS 財神到 / 勇气棒嘟嘟 / 豬你發大財CNY 2019 新年歌串烧Happy Chinese New Year 2019 Nonstop Remix DJ-CCS",
-    channel: "DJ CCS [ Official ]",
-    duration: 4538,
-    duration_formatted: "1h 15m",
-    url: "https://www.mixcloud.com/dj-ccs/dj-ccs-%E8%B2%A1%E7%A5%9E%E5%88%B0-%E5%8B%87%E6%B0%94%E6%A3%92%E5%98%9F%E5%98%9F-%E8%B1%AC%E4%BD%A0%E7%99%BC%E5%A4%A7%E8%B2%A1cny-2019-%E6%96%B0%E5%B9%B4%E6%AD%8C%E4%B8%B2%E7%83%A7happy-chinese-new-year-2019-nonstop-remix-dj-ccs/",
-    artwork: "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/4/0/e/d/e88c-ed0a-4c9b-88aa-546d774cb9df"
+    id: "/junyan-lo/%E6%B2%99%E6%BC%A0%E9%AA%86%E9%A9%BC%E6%8B%A5%E6%8A%B1%E4%BD%A0%E7%A6%BB%E5%8E%BB%E7%AD%94%E6%A1%88-manyao-remix-2k18-by-dj-y/",
+    key: "/junyan-lo/%E6%B2%99%E6%BC%A0%E9%AA%86%E9%A9%BC%E6%8B%A5%E6%8A%B1%E4%BD%A0%E7%A6%BB%E5%8E%BB%E7%AD%94%E6%A1%88-manyao-remix-2k18-by-dj-y/",
+    title: "沙漠骆驼$拥抱你离去$答案 MANYAO REMIX 2K18 BY DJ Y",
+    channel: "DJ Y神 (Y'P'DJs)",
+    duration: 3804,
+    duration_formatted: "1h 3m",
+    url: "https://www.mixcloud.com/junyan-lo/%E6%B2%99%E6%BC%A0%E9%AA%86%E9%A9%BC%E6%8B%A5%E6%8A%B1%E4%BD%A0%E7%A6%BB%E5%8E%BB%E7%AD%94%E6%A1%88-manyao-remix-2k18-by-dj-y/",
+    artwork: "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/e/9/7/2/d345-8a1d-4078-b22b-627ec773f8cf"
   },
   {
-    id: "/djkings/chinese-dj-manyao-club-remix-vol-15/",
-    key: "/djkings/chinese-dj-manyao-club-remix-vol-15/",
-    title: "Chinese DJ Manyao Club Remix Vol. 15 Nonstop Bass",
-    channel: "DJ Kings Global",
-    duration: 5120,
-    duration_formatted: "1h 25m",
-    url: "https://www.mixcloud.com/djkings/chinese-dj-manyao-club-remix-vol-15/",
-    artwork: ""
+    id: "/ng-kianchee/%E9%94%99%E5%AD%A3%E6%B2%89%E9%86%89%E7%9A%84%E9%9D%92%E4%B8%9D%E5%96%84%E5%8F%98%E5%A4%9C%E6%9B%B2%E5%88%BB%E5%9C%A8%E6%88%91%E5%BF%83%E5%BA%95%E7%9A%84%E5%90%8D%E5%AD%97nonstop-manyao-mix-2k20-by-djkc/",
+    key: "/ng-kianchee/%E9%94%99%E5%AD%A3%E6%B2%89%E9%86%89%E7%9A%84%E9%9D%92%E4%B8%9D%E5%96%84%E5%8F%98%E5%A4%9C%E6%9B%B2%E5%88%BB%E5%9C%A8%E6%88%91%E5%BF%83%E5%BA%95%E7%9A%84%E5%90%8D%E5%AD%97nonstop-manyao-mix-2k20-by-djkc/",
+    title: "错季●沉醉的青丝●善变●夜曲●刻在我心底的名字●NONSTOP MANYAO MIX 2K20 BY DJKC",
+    channel: "DJ KC | UNiTED V.i.P'G DJs",
+    duration: 3628,
+    duration_formatted: "1h 0m",
+    url: "https://www.mixcloud.com/ng-kianchee/%E9%94%99%E5%AD%A3%E6%B2%89%E9%86%89%E7%9A%84%E9%9D%92%E4%B8%9D%E5%96%84%E5%8F%98%E5%A4%9C%E6%9B%B2%E5%88%BB%E5%9C%A8%E6%88%91%E5%BF%83%E5%BA%95%E7%9A%84%E5%90%8D%E5%AD%97nonstop-manyao-mix-2k20-by-djkc/",
+    artwork: "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/d/c/9/b/ead8-ad8a-44e4-9e12-5c68f1a08afa"
   },
   {
-    id: "/basschina/chinese-electro-manyao-top-tracks-2025/",
-    key: "/basschina/chinese-electro-manyao-top-tracks-2025/",
-    title: "Chinese Electro Manyao Top Tracks Nonstop Party Mix",
-    channel: "Bass China",
-    duration: 6400,
-    duration_formatted: "1h 46m",
-    url: "https://www.mixcloud.com/basschina/chinese-electro-manyao-top-tracks-2025/",
-    artwork: ""
+    id: "/jarty-ye/%E7%BD%97%E6%9B%BC%E8%92%82%E5%85%8B%E7%9A%84%E7%88%B1%E6%83%85%E9%AB%94%E9%9D%A2%E7%97%85%E8%AE%8Armx-2k18-private-nonstop-manyao-just-for-bb-by-dj-ye/",
+    key: "/jarty-ye/%E7%BD%97%E6%9B%BC%E8%92%82%E5%85%8B%E7%9A%84%E7%88%B1%E6%83%85%E9%AB%94%E9%9D%A2%E7%97%85%E8%AE%8Armx-2k18-private-nonstop-manyao-just-for-bb-by-dj-ye/",
+    title: "罗曼蒂克的爱情✘體面✘病變RMX 2K18 PRIVATE NONSTOP MANYAO JUST FOR BB BY DJ Ye",
+    channel: "DJ'YE",
+    duration: 4638,
+    duration_formatted: "1h 17m",
+    url: "https://www.mixcloud.com/jarty-ye/%E7%BD%97%E6%9B%BC%E8%92%82%E5%85%8B%E7%9A%84%E7%88%B1%E6%83%85%E9%AB%94%E9%9D%A2%E7%97%85%E8%AE%8Armx-2k18-private-nonstop-manyao-just-for-bb-by-dj-ye/",
+    artwork: "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/c/b/3/c/8a52-8ef6-4f62-bf86-03e6fd092e03"
+  },
+  {
+    id: "/ng-kianchee/djkc-%E4%B9%9D%E4%B8%87%E5%AD%97%E8%B7%B3%E6%A5%BC%E6%9C%BA%E5%BA%A7%E4%BD%8D%E7%97%B4%E6%83%85%E7%9A%84%E7%94%B7%E5%AD%90%E6%B1%89%E5%BF%99%E7%BA%BF%E5%B0%8F%E5%AD%A9%E9%9B%A8%E5%A4%A9%E9%9B%AA%E8%97%8Fmanyao-mix-2k25/",
+    key: "/ng-kianchee/djkc-%E4%B9%9D%E4%B8%87%E5%AD%97%E8%B7%B3%E6%A5%BC%E6%9C%BA%E5%BA%A7%E4%BD%8D%E7%97%B4%E6%83%85%E7%9A%84%E7%94%B7%E5%AD%90%E6%B1%89%E5%BF%99%E7%BA%BF%E5%B0%8F%E5%AD%A9%E9%9B%A8%E5%A4%A9%E9%9B%AA%E8%97%8Fmanyao-mix-2k25/",
+    title: "DJ‘KC｛九万字●跳楼机●座位●痴情的男子汉●忙线●小孩●雨天●雪藏●MANYAO MIX 2K25｝",
+    channel: "DJ KC | UNiTED V.i.P'G DJs",
+    duration: 6830,
+    duration_formatted: "1h 53m",
+    url: "https://www.mixcloud.com/ng-kianchee/djkc-%E4%B9%9D%E4%B8%87%E5%AD%97%E8%B7%B3%E6%A5%BC%E6%9C%BA%E5%BA%A7%E4%BD%8D%E7%97%B4%E6%83%85%E7%9A%84%E7%94%B7%E5%AD%90%E6%B1%89%E5%BF%99%E7%BA%BF%E5%B0%8F%E5%AD%A9%E9%9B%A8%E5%A4%A9%E9%9B%AA%E8%97%8Fmanyao-mix-2k25/",
+    artwork: "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/b/0/d/0/9b21-1d33-4f7a-9a12-32a3916b7925"
+  },
+  {
+    id: "/jarty-ye/momo%E5%B0%88%E5%B1%AC%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%9C%E0%B8%B2%E0%B8%99-pure-x-%E6%B3%B0%E5%9C%8B%E6%AD%8C-wip-wup-x-dior%E5%A4%A7%E7%A9%8E_-_%E6%84%9B%E8%87%AA%E5%B7%B1%E6%9B%B4%E6%B7%B1rmx-2o2o-private-manyao-nonstop-by-djye/",
+    key: "/jarty-ye/momo%E5%B0%88%E5%B1%AC%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%9C%E0%B8%B2%E0%B8%99-pure-x-%E6%B3%B0%E5%9C%8B%E6%AD%8C-wip-wup-x-dior%E5%A4%A7%E7%A9%8E_-_%E6%84%9B%E8%87%AA%E5%B7%B1%E6%9B%B4%E6%B7%B1rmx-2o2o-private-manyao-nonstop-by-djye/",
+    title: "『MoMo^專屬』【ทางผาน - Pure X 泰國歌 - Wip Wup X Dior大穎_-_愛自己更深】Rmx 2o2o Private ManYao NonStop By Dj'Ye",
+    channel: "DJ'YE",
+    duration: 4757,
+    duration_formatted: "1h 19m",
+    url: "https://www.mixcloud.com/jarty-ye/momo%E5%B0%88%E5%B1%AC%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%9C%E0%B8%B2%E0%B8%99-pure-x-%E6%B3%B0%E5%9C%8B%E6%AD%8C-wip-wup-x-dior%E5%A4%A7%E7%A9%8E_-_%E6%84%9B%E8%87%AA%E5%B7%B1%E6%9B%B4%E6%B7%B1rmx-2o2o-private-manyao-nonstop-by-djye/",
+    artwork: "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/9/c/5/3/2f28-d41a-49b5-be75-a275520fc13b"
   }
 ];
 

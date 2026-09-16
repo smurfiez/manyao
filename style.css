@@ -1270,17 +1270,18 @@ h1, h2, h3, h4, h5, h6 {
 
 #sc-widget-container.minimized,
 #mc-widget-container.minimized {
-  opacity: 0.001;
+  opacity: 0;
   pointer-events: none;
-  transform: scale(0.01) translateY(80px);
-  z-index: -10;
+  transform: translateY(120%);
+  z-index: -1;
 }
 
 #sc-widget-container:not(.minimized),
 #mc-widget-container:not(.minimized) {
   opacity: 1;
   pointer-events: auto;
-  transform: scale(1) translateY(0);
+  transform: translateY(0);
+  z-index: 105;
 }
 
 .widget-frame-wrapper {

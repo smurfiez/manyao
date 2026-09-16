@@ -3,60 +3,97 @@
    ============================================================ */
 
 // ── Curated Starter SoundCloud Manyao Mixes (> 1 hr) ─────────
+// ── Curated Starter SoundCloud Manyao Mixes (> 1 hr) ─────────
 const DEFAULT_SC_PLAYLIST = [
   {
-    id: "1230001",
-    title: "NONSTOP MANYAO REMIX 2022",
-    channel: "Sean Lu",
-    duration: 6765,
-    duration_formatted: "1h 52m",
-    url: "https://soundcloud.com/seanjaya-ludy/manyao-2022",
-    artwork: "https://i1.sndcdn.com/artworks-2L8NvaNLofCUroYS-rEggug-large.jpg"
+    id: "2331874988",
+    title: "SUPER EXCLUSIVE MANYAO REMIX 2026 REQ ALEXEIFINLEY",
+    channel: "HeNz CheN",
+    duration: 5523,
+    duration_formatted: "1h 32m",
+    url: "https://soundcloud.com/henz_chen/super-exclusive-manyao-remix",
+    artwork: "https://i1.sndcdn.com/artworks-2FlOyVz9grmOLspo-m2JoEw-large.jpg"
   },
   {
-    id: "1230002",
-    title: "MANYAO REMIX TERBARU",
-    channel: "manyao edm",
-    duration: 7138,
-    duration_formatted: "1h 58m",
-    url: "https://soundcloud.com/manyao-edm/manyao-remix-terbaru",
-    artwork: "https://i1.sndcdn.com/artworks-5Zc6F9NxfBLockpS-JZdP3g-large.jpg"
+    id: "2168640663",
+    title: "𝐁𝐄𝐑𝐋𝐈𝐍𝐓𝐎𝐓𝐎 MANYAO MANDARIN REMIX TERBARU 2025",
+    channel: "AprinaLdy™",
+    duration: 8005,
+    duration_formatted: "2h 13m",
+    url: "https://soundcloud.com/aprinaldy-tm/manyao-mandarin-remix-terbaru-2025",
+    artwork: "https://i1.sndcdn.com/artworks-nZ7JFPFqibv8lyRF-uO71Rw-large.png"
   },
   {
-    id: "1230003",
-    title: "DJ MANYAO MANDARIN GACOR NONSTOP 2026 !!!",
-    channel: "iniawaw",
-    duration: 3672,
-    duration_formatted: "1h 1m",
-    url: "https://soundcloud.com/iniawaw/dj-manyao-mandarin-gacor",
-    artwork: "https://i1.sndcdn.com/artworks-odGVkXnd67dXOZHc-TYrMHw-large.png"
+    id: "2372195411",
+    title: "DJ Draken Manyao Melbourne Remix 2026 Full Bass",
+    channel: "DJ DRAKEN",
+    duration: 4664,
+    duration_formatted: "1h 17m",
+    url: "https://soundcloud.com/djken1688/dj-draken-manyao-melbourne",
+    artwork: "https://i1.sndcdn.com/artworks-CoBtMnTEBB1qGajT-R6kppA-large.jpg"
   },
   {
-    id: "1230004",
-    title: "MANYAO NONSTOP MIX 2026 🔥 BINGBIAN メ JUMPING MACHINE メ TONGHUA",
-    channel: "Pan-strex",
-    duration: 5360,
-    duration_formatted: "1h 29m",
-    url: "https://soundcloud.com/pan-strex/manyao-nonstop-mix-2026",
-    artwork: "https://i1.sndcdn.com/artworks-1yQsklvAMwrlmmgd-RSEltA-large.jpg"
-  },
-  {
-    id: "1230005",
-    title: "SPECIAL MANYAO REMIX ANTI DROP 2026",
-    channel: "BANGHO",
-    duration: 9648,
-    duration_formatted: "2h 40m",
-    url: "https://soundcloud.com/bangho/special-manyao-remix-anti-drop",
-    artwork: "https://i1.sndcdn.com/artworks-odGVkXnd67dXOZHc-TYrMHw-large.png"
-  },
-  {
-    id: "1230006",
-    title: "摇头夜店舞曲 Hardstyle - Hardcore Nonstop Chinese DJ Disco Remix",
-    channel: "Jonny Chan",
-    duration: 5854,
-    duration_formatted: "1h 37m",
-    url: "https://soundcloud.com/jonny-chan-791788730/hardstyle-hardcore-nonstop",
+    id: "2343885377",
+    title: "MANYAO INDO 404 REMIX 2026",
+    channel: "AprinaLdy™",
+    duration: 3871,
+    duration_formatted: "1h 4m",
+    url: "https://soundcloud.com/aprinaldy-tm/manyao-indo-404-remix-2026",
     artwork: "https://i1.sndcdn.com/artworks-5QpERKiDj6NcCdvQ-ST64EA-large.png"
+  },
+  {
+    id: "2399645982",
+    title: "EXCLUSIVE MANYAO CHINESE REMIX 2026 HOT PLAYLIST",
+    channel: "MOMOPLAY",
+    duration: 4294,
+    duration_formatted: "1h 11m",
+    url: "https://soundcloud.com/momoplay-oficial/exclusive-manyao-chinese-remix",
+    artwork: "https://i1.sndcdn.com/artworks-RFJ2JqyPod18Mt8z-hi3Pnw-large.jpg"
+  },
+  {
+    id: "2399142171",
+    title: "Hai Yu Ni メ Tiao Lou Ji メ Wu Ren Zhi Dao メ MANYAO VINA ELECTRO BOUNCE REMIX 2026 By RAJAKING",
+    channel: "RAJAGROUP",
+    duration: 6342,
+    duration_formatted: "1h 45m",
+    url: "https://soundcloud.com/rajagroup/hai-yu-ni-tiao-lou-ji-wu-ren",
+    artwork: "https://i1.sndcdn.com/artworks-bK7qqvanlMISvEGH-VvvynQ-large.jpg"
+  },
+  {
+    id: "2169354729",
+    title: "MANYAO TERBARU REMIX 2025 SPECIAL REQ KIMMY",
+    channel: "Ervito Liu",
+    duration: 3750,
+    duration_formatted: "1h 2m",
+    url: "https://soundcloud.com/ervito-liu/manyao-nonstop-remix-2025",
+    artwork: "https://i1.sndcdn.com/artworks-LDOHTL5xK30Md2tV-uJ1gZg-large.jpg"
+  },
+  {
+    id: "2382540123",
+    title: "CHOU LI X HAI YU NI MANYAO ELECTRO REMIX 2026",
+    channel: "MOMOPLAY",
+    duration: 4030,
+    duration_formatted: "1h 7m",
+    url: "https://soundcloud.com/momoplay-oficial/chou-li-x-hai-yu-ni-manyao",
+    artwork: "https://i1.sndcdn.com/artworks-JpN20vmZGeYJOeRY-8i1uPA-large.jpg"
+  },
+  {
+    id: "2088329367",
+    title: "FULL JJ LIN & JAY CHOU ♪ DJ MANYAO REMIX FAVORIT SONG 2025 By Mr. Hau",
+    channel: "WnDy",
+    duration: 4979,
+    duration_formatted: "1h 22m",
+    url: "https://soundcloud.com/wandywi/full-jj-lin-jay-chou-dj-manyao-remix-favorit-song-2025-by-mr-hau",
+    artwork: "https://i1.sndcdn.com/artworks-N8dPBK3zwphQZeRo-abxiIg-large.png"
+  },
+  {
+    id: "2276572058",
+    title: "MANYAO REMIX MANDARIN BARAT 2026 #JFZMIXTAPE",
+    channel: "JASON FLAMEBEATZ",
+    duration: 4480,
+    duration_formatted: "1h 14m",
+    url: "https://soundcloud.com/jason-flamebeatzz/manyao-remix-mandarin-barat",
+    artwork: "https://i1.sndcdn.com/artworks-gdH0xjCBvsdAHmyW-TI9P2w-large.png"
   }
 ];
 
@@ -82,6 +119,12 @@ let shufflePosition = -1;
 let isDraggingProgress = false;
 let isGeneratingTracks = false;
 let currentDurationMs = 0;
+let currentLoadedUrl = null;
+let currentLoadedIndex = -1;
+let userExplicitlyPaused = false;
+let silentWavDataURI = null;
+let lastPositionUpdate = 0;
+let mediaSessionHandlersConfigured = false;
 
 // ── DOM Elements ──────────────────────────────────────────────
 const $ = (sel) => document.querySelector(sel);
@@ -90,26 +133,144 @@ const $$ = (sel) => document.querySelectorAll(sel);
 // ── Init ──────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   setupEventListeners();
+  initAudioSession();
+  setupBackgroundLifecycle();
   initSoundCloudWidget();
-
-  // Load saved playlist or fetch fresh >1hr Manyao sets
-  const saved = localStorage.getItem('manyao-sc-playlist');
-  if (saved) {
-    try {
-      playlist = JSON.parse(saved);
-      if (playlist.length > 0) {
-        currentIndex = 0;
-        renderPlaylist();
-        updateNowPlayingUI();
-      }
-    } catch {
-      playlist = [];
-    }
-  }
+  loadPlaylist();
 
   // Generate fresh random Manyao sets (>1 hr)
   generateRandomTracks(10, false);
 });
+
+// ── Background Audio Keep-Alive & AudioSession ────────────────
+function getSilentWavURI(durationSec = 2, sampleRate = 8000) {
+  if (silentWavDataURI) return silentWavDataURI;
+  try {
+    const numSamples = durationSec * sampleRate;
+    const buffer = new ArrayBuffer(44 + numSamples);
+    const view = new DataView(buffer);
+    function writeString(offset, str) {
+      for (let i = 0; i < str.length; i++) view.setUint8(offset + i, str.charCodeAt(i));
+    }
+    writeString(0, 'RIFF');
+    view.setUint32(4, 36 + numSamples, true);
+    writeString(8, 'WAVE');
+    writeString(12, 'fmt ');
+    view.setUint32(16, 16, true);
+    view.setUint16(20, 1, true); // PCM
+    view.setUint16(22, 1, true); // Mono
+    view.setUint32(24, sampleRate, true);
+    view.setUint32(28, sampleRate, true);
+    view.setUint16(32, 1, true);
+    view.setUint16(34, 8, true); // 8-bit PCM
+    writeString(36, 'data');
+    view.setUint32(40, numSamples, true);
+    const bytes = new Uint8Array(buffer);
+    bytes.fill(0x80, 44);
+    let binary = '';
+    for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
+    silentWavDataURI = 'data:audio/wav;base64,' + btoa(binary);
+    return silentWavDataURI;
+  } catch (err) {
+    console.warn('Failed to build silent WAV data URI:', err);
+    return '';
+  }
+}
+
+function initAudioSession() {
+  if (typeof navigator !== 'undefined' && navigator.audioSession) {
+    try {
+      navigator.audioSession.type = 'playback';
+    } catch (err) {
+      console.debug('navigator.audioSession setup:', err);
+    }
+  }
+}
+
+function startAudioAnchor() {
+  initAudioSession();
+  const anchor = $('#bg-audio-anchor');
+  if (!anchor) return;
+  if (!anchor.src) {
+    const uri = getSilentWavURI();
+    if (uri) anchor.src = uri;
+  }
+  anchor.volume = 0.01;
+  const playPromise = anchor.play();
+  if (playPromise !== undefined) {
+    playPromise.catch((err) => {
+      console.debug('Audio anchor play deferred/handled:', err);
+    });
+  }
+}
+
+function stopAudioAnchor() {
+  const anchor = $('#bg-audio-anchor');
+  if (anchor && !anchor.paused) {
+    anchor.pause();
+  }
+}
+
+function setupBackgroundLifecycle() {
+  const unlockAudio = () => {
+    initAudioSession();
+    window.removeEventListener('pointerdown', unlockAudio);
+    window.removeEventListener('touchstart', unlockAudio);
+  };
+  window.addEventListener('pointerdown', unlockAudio, { passive: true });
+  window.addEventListener('touchstart', unlockAudio, { passive: true });
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') {
+      if (isPlaying && !userExplicitlyPaused) {
+        startAudioAnchor();
+        if ('mediaSession' in navigator) {
+          navigator.mediaSession.playbackState = 'playing';
+        }
+      }
+    } else if (document.visibilityState === 'visible') {
+      if (isPlaying && !userExplicitlyPaused) {
+        if (widget && typeof widget.isPaused === 'function') {
+          widget.isPaused((paused) => {
+            if (paused && !userExplicitlyPaused) {
+              widget.play();
+            }
+          });
+        }
+        updatePlayPauseBtn();
+        highlightCurrent();
+      }
+    }
+  });
+
+  window.addEventListener('pagehide', () => {
+    if (isPlaying && !userExplicitlyPaused) {
+      startAudioAnchor();
+    }
+  });
+}
+
+function loadPlaylist() {
+  const saved = localStorage.getItem('manyao-sc-playlist');
+  if (saved) {
+    try {
+      playlist = JSON.parse(saved);
+      if (!Array.isArray(playlist) || playlist.length === 0) {
+        playlist = [...DEFAULT_SC_PLAYLIST];
+      }
+    } catch {
+      playlist = [...DEFAULT_SC_PLAYLIST];
+    }
+  } else {
+    playlist = [...DEFAULT_SC_PLAYLIST];
+  }
+
+  if (playlist.length > 0) {
+    currentIndex = 0;
+    renderPlaylist();
+    updateNowPlayingUI();
+  }
+}
 
 // ── SoundCloud Widget Integration ─────────────────────────────
 function initSoundCloudWidget() {
@@ -128,20 +289,45 @@ function initSoundCloudWidget() {
 
   widget.bind(SC.Widget.Events.PLAY, () => {
     isPlaying = true;
+    userExplicitlyPaused = false;
+    startAudioAnchor();
     updatePlayPauseBtn();
     updateMediaSession();
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = 'playing';
+    }
     highlightCurrent();
   });
 
   widget.bind(SC.Widget.Events.PAUSE, () => {
-    isPlaying = false;
-    updatePlayPauseBtn();
-    highlightCurrent();
+    if (document.hidden && !userExplicitlyPaused) {
+      startAudioAnchor();
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.playbackState = 'playing';
+      }
+      setTimeout(() => {
+        if (document.hidden && !userExplicitlyPaused && widget) {
+          widget.play();
+        }
+      }, 200);
+    } else {
+      isPlaying = false;
+      stopAudioAnchor();
+      updatePlayPauseBtn();
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.playbackState = 'paused';
+      }
+      highlightCurrent();
+    }
   });
 
   widget.bind(SC.Widget.Events.FINISH, () => {
     isPlaying = false;
+    stopAudioAnchor();
     updatePlayPauseBtn();
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = 'none';
+    }
     handleSongEnd();
   });
 
@@ -163,6 +349,8 @@ function initSoundCloudWidget() {
     if (bar) bar.style.width = Math.min(100, Math.max(0, pct)) + '%';
     if (timeEl) timeEl.textContent = formatTime(currentSec);
     if (durEl) durEl.textContent = formatTime(durationSec);
+
+    updateMediaSessionPositionState(currentSec, durationSec);
   });
 }
 
@@ -173,18 +361,30 @@ function playSong(index) {
   currentIndex = index;
   localStorage.setItem('manyao-sc-current-index', index);
 
+  userExplicitlyPaused = false;
+  initAudioSession();
+  startAudioAnchor();
+
   const song = playlist[index];
   isPlaying = true;
+  currentLoadedIndex = index;
+  currentLoadedUrl = song.url;
+
+  openWidget();
 
   widget.load(song.url, {
     auto_play: true,
-    color: '#ff5500',
-    show_comments: false,
+    show_artwork: true,
     hide_related: true,
-    callback: () => {
-      widget.play();
-    }
+    show_comments: false,
+    show_user: true
   });
+
+  try {
+    widget.play();
+  } catch (e) {
+    console.warn('widget.play error:', e);
+  }
 
   highlightCurrent();
   updateNowPlayingUI();
@@ -200,12 +400,30 @@ function playSong(index) {
 function togglePlayPause() {
   if (!widget) return;
 
-  if (currentIndex === -1 && playlist.length > 0) {
-    playSong(0);
+  if (playlist.length === 0) return;
+
+  const targetIdx = currentIndex >= 0 ? currentIndex : 0;
+  if (currentLoadedIndex !== targetIdx || !currentLoadedUrl) {
+    playSong(targetIdx);
     return;
   }
 
-  widget.toggle();
+  if (isPlaying) {
+    userExplicitlyPaused = true;
+    widget.pause();
+    stopAudioAnchor();
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = 'paused';
+    }
+  } else {
+    userExplicitlyPaused = false;
+    initAudioSession();
+    startAudioAnchor();
+    widget.play();
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = 'playing';
+    }
+  }
 }
 
 function playNext() {
@@ -382,6 +600,13 @@ function closeWidget() {
   if (btn) btn.classList.remove('active');
 }
 
+function openWidget() {
+  const container = $('#sc-widget-container');
+  const btn = $('#btn-toggle-widget');
+  if (container) container.classList.remove('minimized');
+  if (btn) btn.classList.add('active');
+}
+
 // ── Search & Random Track Generator (> 1 hr) ─────────────────
 async function generateRandomTracks(count = 10, autoPlay = false) {
   if (isGeneratingTracks) return;
@@ -552,8 +777,20 @@ function renderPlaylist() {
 function highlightCurrent() {
   $$('.playlist-item').forEach((el, i) => {
     el.classList.toggle('active', i === currentIndex);
+    const existingVis = el.querySelector('.visualizer');
+    if (i === currentIndex && isPlaying) {
+      if (!existingVis) {
+        const vis = document.createElement('div');
+        vis.className = 'visualizer active';
+        vis.innerHTML = '<span class="visualizer-bar"></span><span class="visualizer-bar"></span><span class="visualizer-bar"></span><span class="visualizer-bar"></span>';
+        const delBtn = el.querySelector('.playlist-item-delete');
+        if (delBtn) el.insertBefore(vis, delBtn);
+        else el.appendChild(vis);
+      }
+    } else if (existingVis) {
+      existingVis.remove();
+    }
   });
-  renderPlaylist();
 }
 
 function updateNowPlayingUI() {
@@ -681,15 +918,107 @@ function updateMediaSession() {
   navigator.mediaSession.metadata = new MediaMetadata({
     title: song.title,
     artist: song.channel,
-    album: 'Manyao Player (SoundCloud)',
+    album: 'Manyao Player (SoundCloud >1 hr)',
     artwork: [
+      { src: song.artwork || 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
       { src: song.artwork || 'icons/icon-512.png', sizes: '512x512', type: 'image/png' }
     ]
   });
-  navigator.mediaSession.setActionHandler('play', () => togglePlayPause());
-  navigator.mediaSession.setActionHandler('pause', () => togglePlayPause());
-  navigator.mediaSession.setActionHandler('previoustrack', () => playPrev());
-  navigator.mediaSession.setActionHandler('nexttrack', () => playNext());
+
+  navigator.mediaSession.playbackState = isPlaying ? 'playing' : 'paused';
+
+  setupMediaSessionActionHandlers();
+}
+
+function updateMediaSessionPositionState(currentTime, duration) {
+  if (!('mediaSession' in navigator) || !navigator.mediaSession.setPositionState) return;
+  const now = Date.now();
+  if (now - lastPositionUpdate < 1000) return;
+  lastPositionUpdate = now;
+
+  if (duration && duration > 0 && !isNaN(currentTime) && !isNaN(duration)) {
+    try {
+      navigator.mediaSession.setPositionState({
+        duration: Math.max(0, duration),
+        playbackRate: 1,
+        position: Math.min(Math.max(0, currentTime), duration)
+      });
+    } catch (e) {
+      // Ignored if position state is temporarily unsupported
+    }
+  }
+}
+
+function setupMediaSessionActionHandlers() {
+  if (!('mediaSession' in navigator) || mediaSessionHandlersConfigured) return;
+  mediaSessionHandlersConfigured = true;
+
+  const handlers = [
+    ['play', () => {
+      userExplicitlyPaused = false;
+      initAudioSession();
+      startAudioAnchor();
+      if (widget) {
+        widget.play();
+      } else if (currentIndex >= 0) {
+        playSong(currentIndex);
+      }
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.playbackState = 'playing';
+      }
+    }],
+    ['pause', () => {
+      userExplicitlyPaused = true;
+      if (widget) {
+        widget.pause();
+      }
+      stopAudioAnchor();
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.playbackState = 'paused';
+      }
+    }],
+    ['previoustrack', () => playPrev()],
+    ['nexttrack', () => playNext()],
+    ['seekto', (details) => {
+      if (details.seekTime !== undefined && details.seekTime !== null && widget) {
+        widget.seekTo(details.seekTime * 1000);
+      }
+    }],
+    ['seekforward', (details) => {
+      const offset = (details.seekOffset || 10) * 1000;
+      if (widget && typeof widget.getPosition === 'function') {
+        widget.getPosition((pos) => {
+          widget.seekTo(pos + offset);
+        });
+      }
+    }],
+    ['seekbackward', (details) => {
+      const offset = (details.seekOffset || 10) * 1000;
+      if (widget && typeof widget.getPosition === 'function') {
+        widget.getPosition((pos) => {
+          widget.seekTo(Math.max(0, pos - offset));
+        });
+      }
+    }],
+    ['stop', () => {
+      userExplicitlyPaused = true;
+      if (widget) {
+        widget.pause();
+      }
+      stopAudioAnchor();
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.playbackState = 'none';
+      }
+    }]
+  ];
+
+  for (const [action, handler] of handlers) {
+    try {
+      navigator.mediaSession.setActionHandler(action, handler);
+    } catch (e) {
+      console.debug(`MediaSession action ${action} not supported:`, e);
+    }
+  }
 }
 
 // ── Event Listeners ───────────────────────────────────────────

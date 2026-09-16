@@ -6,6 +6,8 @@
   <meta name="theme-color" content="#0a0a0f">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Manyao SoundCloud">
   <meta name="description" content="Manyao SoundCloud Player — Long-form Manyao mixes > 1 Hour">
 
   <title>Manyao Player — SoundCloud (>1 hr)</title>
@@ -166,15 +168,18 @@
       </div>
       <div class="widget-frame-wrapper">
         <iframe id="sc-widget"
-                allow="autoplay; encrypted-media; picture-in-picture; airplay"
+                allow="autoplay *; encrypted-media *; picture-in-picture *; airplay *"
                 x-webkit-airplay="allow"
-                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false">
+                src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/henz_chen/super-exclusive-manyao-remix&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false">
         </iframe>
       </div>
     </div>
 
     <!-- WebKit AirPlay & RemotePlayback Media Bridge Element -->
     <video id="airplay-bridge" x-webkit-airplay="allow" playsinline preload="auto" style="position:fixed;width:1px;height:1px;opacity:0.001;pointer-events:none;bottom:0;right:0;"></video>
+
+    <!-- iOS & Android Background Audio Session Anchor Element -->
+    <audio id="bg-audio-anchor" loop playsinline preload="auto" style="position:fixed;width:1px;height:1px;opacity:0.001;pointer-events:none;bottom:0;left:0;"></audio>
 
   </div>
 

@@ -6,6 +6,8 @@
   <meta name="theme-color" content="#0a0a0f">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Manyao">
   <meta name="description" content="嗨曲播放器 — Manyao music playlist player">
 
   <title>Manyao Player</title>
@@ -29,6 +31,7 @@
             <a href="soundcloud.html" class="platform-tab tab-sc" title="SoundCloud Player (>1 hr)">☁ SoundCloud</a>
             <a href="mixcloud.html" class="platform-tab tab-mc" title="Mixcloud Player (>1 hr)">🎧 Mixcloud</a>
           </nav>
+          <span class="platform-filter-tag">⏱ &gt; 1 HR ONLY</span>
           <a href="https://skipcut.com" target="_blank" rel="noopener" class="skipcut-badge" title="Powered by SkipCut ad-blocking & SponsorBlock engine">
             <span class="lightning">⚡</span> SkipCut
           </a>
@@ -190,6 +193,7 @@
       <div class="yt-player-header">
         <span class="yt-player-title">⚡ Video / AirPlay Player</span>
         <div class="yt-player-actions">
+          <button class="btn-icon" id="btn-pip-video" title="Picture in Picture (Floating background window)" aria-label="Picture in Picture">⧉</button>
           <button class="btn-icon" id="btn-fullscreen-video" title="Toggle Fullscreen AirPlay" aria-label="Fullscreen">⛶</button>
           <button class="btn-icon" id="btn-close-video" title="Minimize Video" aria-label="Minimize">✕</button>
         </div>
@@ -201,6 +205,9 @@
 
     <!-- WebKit AirPlay & RemotePlayback Media Bridge Element -->
     <video id="airplay-bridge" x-webkit-airplay="allow" playsinline preload="auto" style="position:fixed;width:1px;height:1px;opacity:0.001;pointer-events:none;bottom:0;right:0;"></video>
+
+    <!-- iOS & Android Background Audio Session Anchor Element -->
+    <audio id="bg-audio-anchor" loop playsinline preload="auto" style="position:fixed;width:1px;height:1px;opacity:0.001;pointer-events:none;bottom:0;left:0;"></audio>
 
   </div>
 

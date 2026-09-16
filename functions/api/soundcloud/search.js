@@ -13,49 +13,94 @@ const DEFAULT_SC_CLIENT_ID = "Pb72ranhoyt6gw7hM7TkzUItXlMWSNSo";
 
 const FALLBACK_SOUNDCLOUD_MIXES = [
   {
-    id: "2396803131",
-    title: "Manyao Mix 2026 Special Req Asen hauba",
-    channel: "AprinaLdy™",
-    duration: 9085,
-    duration_formatted: "2h 31m",
-    url: "https://soundcloud.com/aprinaldy-tm/manyao-mix-2026-special-req-1",
-    artwork: "https://i1.sndcdn.com/artworks-Qf3PHlLyVOzYHZ06-u8zujw-large.jpg"
+    id: "2331874988",
+    title: "SUPER EXCLUSIVE MANYAO REMIX 2026 REQ ALEXEIFINLEY",
+    channel: "HeNz CheN",
+    duration: 5523,
+    duration_formatted: "1h 32m",
+    url: "https://soundcloud.com/henz_chen/super-exclusive-manyao-remix",
+    artwork: "https://i1.sndcdn.com/artworks-2FlOyVz9grmOLspo-m2JoEw-large.jpg"
   },
   {
-    id: "2128894074",
-    title: "SPECIAL MIX MANYAO 2025 REQ RUPIAHBET",
+    id: "2168640663",
+    title: "𝐁𝐄𝐑𝐋𝐈𝐍𝐓𝐎𝐓𝐎 MANYAO MANDARIN REMIX TERBARU 2025",
     channel: "AprinaLdy™",
-    duration: 3854,
+    duration: 8005,
+    duration_formatted: "2h 13m",
+    url: "https://soundcloud.com/aprinaldy-tm/manyao-mandarin-remix-terbaru-2025",
+    artwork: "https://i1.sndcdn.com/artworks-nZ7JFPFqibv8lyRF-uO71Rw-large.png"
+  },
+  {
+    id: "2372195411",
+    title: "DJ Draken Manyao Melbourne Remix 2026 Full Bass",
+    channel: "DJ DRAKEN",
+    duration: 4664,
+    duration_formatted: "1h 17m",
+    url: "https://soundcloud.com/djken1688/dj-draken-manyao-melbourne",
+    artwork: "https://i1.sndcdn.com/artworks-CoBtMnTEBB1qGajT-R6kppA-large.jpg"
+  },
+  {
+    id: "2343885377",
+    title: "MANYAO INDO 404 REMIX 2026",
+    channel: "AprinaLdy™",
+    duration: 3871,
     duration_formatted: "1h 4m",
-    url: "https://soundcloud.com/aprinaldy-tm/special-mix-manyao-2025-req-rupiahbet",
-    artwork: "https://i1.sndcdn.com/artworks-4rbwXdW3C9SxuK1x-sEMdIA-large.png"
+    url: "https://soundcloud.com/aprinaldy-tm/manyao-indo-404-remix-2026",
+    artwork: "https://i1.sndcdn.com/artworks-5QpERKiDj6NcCdvQ-ST64EA-large.png"
   },
   {
-    id: "1983742918",
-    title: "NONSTOP CHINESE MANYAO CLUB MIX 2025",
-    channel: "DJ Master Asia",
-    duration: 4920,
+    id: "2399645982",
+    title: "EXCLUSIVE MANYAO CHINESE REMIX 2026 HOT PLAYLIST",
+    channel: "MOMOPLAY",
+    duration: 4294,
+    duration_formatted: "1h 11m",
+    url: "https://soundcloud.com/momoplay-oficial/exclusive-manyao-chinese-remix",
+    artwork: "https://i1.sndcdn.com/artworks-RFJ2JqyPod18Mt8z-hi3Pnw-large.jpg"
+  },
+  {
+    id: "2399142171",
+    title: "Hai Yu Ni メ Tiao Lou Ji メ Wu Ren Zhi Dao メ MANYAO VINA ELECTRO BOUNCE REMIX 2026 By RAJAKING",
+    channel: "RAJAGROUP",
+    duration: 6342,
+    duration_formatted: "1h 45m",
+    url: "https://soundcloud.com/rajagroup/hai-yu-ni-tiao-lou-ji-wu-ren",
+    artwork: "https://i1.sndcdn.com/artworks-bK7qqvanlMISvEGH-VvvynQ-large.jpg"
+  },
+  {
+    id: "2169354729",
+    title: "MANYAO TERBARU REMIX 2025 SPECIAL REQ KIMMY",
+    channel: "Ervito Liu",
+    duration: 3750,
+    duration_formatted: "1h 2m",
+    url: "https://soundcloud.com/ervito-liu/manyao-nonstop-remix-2025",
+    artwork: "https://i1.sndcdn.com/artworks-LDOHTL5xK30Md2tV-uJ1gZg-large.jpg"
+  },
+  {
+    id: "2382540123",
+    title: "CHOU LI X HAI YU NI MANYAO ELECTRO REMIX 2026",
+    channel: "MOMOPLAY",
+    duration: 4030,
+    duration_formatted: "1h 7m",
+    url: "https://soundcloud.com/momoplay-oficial/chou-li-x-hai-yu-ni-manyao",
+    artwork: "https://i1.sndcdn.com/artworks-JpN20vmZGeYJOeRY-8i1uPA-large.jpg"
+  },
+  {
+    id: "2088329367",
+    title: "FULL JJ LIN & JAY CHOU ♪ DJ MANYAO REMIX FAVORIT SONG 2025 By Mr. Hau",
+    channel: "WnDy",
+    duration: 4979,
     duration_formatted: "1h 22m",
-    url: "https://soundcloud.com/user-778899/manyao-club-2025",
-    artwork: ""
+    url: "https://soundcloud.com/wandywi/full-jj-lin-jay-chou-dj-manyao-remix-favorit-song-2025-by-mr-hau",
+    artwork: "https://i1.sndcdn.com/artworks-N8dPBK3zwphQZeRo-abxiIg-large.png"
   },
   {
-    id: "1892301823",
-    title: "Chinese DJ 92CCDJ Nonstop Manyao High Bass 2026",
-    channel: "BassDrop Records",
-    duration: 5410,
-    duration_formatted: "1h 30m",
-    url: "https://soundcloud.com/dj-bass-records/chinese-manyao-92cc",
-    artwork: ""
-  },
-  {
-    id: "1782910394",
-    title: "Electro Manyao Dance Beat Vol. 88 (Full Mix)",
-    channel: "Club EDM China",
-    duration: 7200,
-    duration_formatted: "2h 0m",
-    url: "https://soundcloud.com/club-edm-china/electro-manyao-88",
-    artwork: ""
+    id: "2276572058",
+    title: "MANYAO REMIX MANDARIN BARAT 2026 #JFZMIXTAPE",
+    channel: "JASON FLAMEBEATZ",
+    duration: 4480,
+    duration_formatted: "1h 14m",
+    url: "https://soundcloud.com/jason-flamebeatzz/manyao-remix-mandarin-barat",
+    artwork: "https://i1.sndcdn.com/artworks-gdH0xjCBvsdAHmyW-TI9P2w-large.png"
   }
 ];
 
