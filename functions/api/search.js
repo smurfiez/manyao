@@ -21,7 +21,22 @@ const FALLBACK_TRACKS = [
   { id: "g3OpaY2BBJw", title: "全中文慢摇 最好聽的慢搖舞曲 DJ FC FONG REMIX | 92CCDJ Release", channel: "92CCDJ", duration: 5477, duration_formatted: "1h 31m" },
   { id: "r2Fqh_-fDw0", title: "MANYAO NONSTOP - 再给我一分钟时间 - ELECTRO MANYAO REMIX 2026", channel: "Minsex Manyao", duration: 4533, duration_formatted: "1h 15m" },
   { id: "7de1SE79vyQ", title: "MANYAO NONSTOP - 再给我一分钟时间 - VINABOUNCE REMIX 2026", channel: "Minsex Manyao", duration: 4586, duration_formatted: "1h 16m" },
-  { id: "mopbmaijjWY", title: "2026 DJ'YE NONSTOP MANYAO SONG OINSO MUSIC", channel: "Oinso Music", duration: 3811, duration_formatted: "1h 3m" }
+  { id: "mopbmaijjWY", title: "2026 DJ'YE NONSTOP MANYAO SONG OINSO MUSIC", channel: "Oinso Music", duration: 3811, duration_formatted: "1h 3m" },
+  { id: "72W4e0AX-Z0", title: "2026 DJ'YE NONSTOP MANYAO VOL 12", channel: "Oinso Music", duration: 4402, duration_formatted: "1h 13m" },
+  { id: "HhVMEcT3qPI", title: "【2025全中文慢摇】电音嗨曲连续大碟 越听越有感觉", channel: "92CCDJ", duration: 4452, duration_formatted: "1h 14m" },
+  { id: "jy5Ts7TcfFo", title: "2025最新慢搖舞曲 迷失幻境 x 慢熱 x 忘川彼岸", channel: "DJ-MJ Official", duration: 4983, duration_formatted: "1h 23m" },
+  { id: "Sw-8leZED9U", title: "92CCDJ 中文慢摇精选 2025 劲爆车载重低音串烧", channel: "92CCDJ", duration: 4390, duration_formatted: "1h 13m" },
+  { id: "YO3R_TAo8uw", title: "DJ小可 2025慢摇新歌精选 连续大碟 超好听女声", channel: "92CCDJ", duration: 3698, duration_formatted: "1h 1m" },
+  { id: "TWEM9Z4fSig", title: "2025精选慢摇舞曲 刀马旦 x 白月光与朱砂痣", channel: "DJ-MJ Official", duration: 5012, duration_formatted: "1h 23m" },
+  { id: "M4H2ZcSDD7I", title: "全中文慢摇 劲爆夜店重低音 2025 精选合辑", channel: "Ky Music", duration: 5580, duration_formatted: "1h 33m" },
+  { id: "h-ahVtnLqrI", title: "DJ阿圣 慢摇舞曲精选 2025 嗨翻全场", channel: "92CCDJ", duration: 4325, duration_formatted: "1h 12m" },
+  { id: "9DHkmlCLl6s", title: "2025最新中文慢摇 错位时空 x 踏山河", channel: "DJ-MJ Official", duration: 4140, duration_formatted: "1h 9m" },
+  { id: "9wnn5eIJK18", title: "92CCDJ 全球流行慢摇 EDM 连续播放", channel: "92CCDJ", duration: 6210, duration_formatted: "1h 43m" },
+  { id: "C-9r8UBuKjA", title: "2025慢摇舞曲 夜店酒吧打碟精选", channel: "Ky Music", duration: 5130, duration_formatted: "1h 25m" },
+  { id: "JOeVLtpx4jo", title: "DJ小鱼儿 全中文慢摇大碟 超嗨车载低音炮", channel: "92CCDJ", duration: 4740, duration_formatted: "1h 19m" },
+  { id: "etqVMvJu_PI", title: "2025精选慢摇 骁 x 归寻 x 燕无歇 重低音", channel: "DJ-MJ Official", duration: 4350, duration_formatted: "1h 12m" },
+  { id: "80TitSq0ctg", title: "92CCDJ 慢摇新歌连续大碟 2025 超重低音车载", channel: "92CCDJ", duration: 4770, duration_formatted: "1h 19m" },
+  { id: "8GqPaFbZ61I", title: "2025震撼慢摇舞曲 连续两小时夜店嗨曲", channel: "92CCDJ", duration: 6600, duration_formatted: "1h 50m" }
 ];
 
 function corsHeaders() {
@@ -85,7 +100,7 @@ export async function onRequestOptions() {
 
 export async function onRequestGet(context) {
   const url = new URL(context.request.url);
-  const count = parseInt(url.searchParams.get("count") || "10", 10);
+  const count = parseInt(url.searchParams.get("count") || "25", 10);
   const minDurationSec = parseInt(url.searchParams.get("min_duration") || "3600", 10);
   let q = url.searchParams.get("q");
 

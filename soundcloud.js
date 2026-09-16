@@ -6,94 +6,229 @@
 // ── Curated Starter SoundCloud Manyao Mixes (> 1 hr) ─────────
 const DEFAULT_SC_PLAYLIST = [
   {
-    id: "2331874988",
-    title: "SUPER EXCLUSIVE MANYAO REMIX 2026 REQ ALEXEIFINLEY",
-    channel: "HeNz CheN",
-    duration: 5523,
-    duration_formatted: "1h 32m",
-    url: "https://soundcloud.com/henz_chen/super-exclusive-manyao-remix",
-    artwork: "https://i1.sndcdn.com/artworks-2FlOyVz9grmOLspo-m2JoEw-large.jpg"
+    "id": "1193073424",
+    "title": "NONSTOP MANYAO REMIX 2022",
+    "channel": "Sean Lu",
+    "duration": 6764,
+    "duration_formatted": "1h 52m",
+    "url": "https://soundcloud.com/seanjaya-ludy/manyao-2022",
+    "artwork": "https://i1.sndcdn.com/artworks-2L8NvaNLofCUroYS-rEggug-large.jpg"
   },
   {
-    id: "2168640663",
-    title: "𝐁𝐄𝐑𝐋𝐈𝐍𝐓𝐎𝐓𝐎 MANYAO MANDARIN REMIX TERBARU 2025",
-    channel: "AprinaLdy™",
-    duration: 8005,
-    duration_formatted: "2h 13m",
-    url: "https://soundcloud.com/aprinaldy-tm/manyao-mandarin-remix-terbaru-2025",
-    artwork: "https://i1.sndcdn.com/artworks-nZ7JFPFqibv8lyRF-uO71Rw-large.png"
+    "id": "1783730157",
+    "title": "MANYAO REMIX TERBARU",
+    "channel": "manyao edm",
+    "duration": 7137,
+    "duration_formatted": "1h 58m",
+    "url": "https://soundcloud.com/manyao-edm/manyao-remix-terbaru",
+    "artwork": "https://i1.sndcdn.com/artworks-5Zc6F9NxfBLockpS-JZdP3g-large.jpg"
   },
   {
-    id: "2372195411",
-    title: "DJ Draken Manyao Melbourne Remix 2026 Full Bass",
-    channel: "DJ DRAKEN",
-    duration: 4664,
-    duration_formatted: "1h 17m",
-    url: "https://soundcloud.com/djken1688/dj-draken-manyao-melbourne",
-    artwork: "https://i1.sndcdn.com/artworks-CoBtMnTEBB1qGajT-R6kppA-large.jpg"
+    "id": "2343885377",
+    "title": "MANYAO INDO 404 REMIX 2026",
+    "channel": "AprinaLdy™",
+    "duration": 3871,
+    "duration_formatted": "1h 4m",
+    "url": "https://soundcloud.com/aprinaldy-tm/manyao-indo-404-remix-2026",
+    "artwork": "https://i1.sndcdn.com/artworks-5QpERKiDj6NcCdvQ-ST64EA-large.png"
   },
   {
-    id: "2343885377",
-    title: "MANYAO INDO 404 REMIX 2026",
-    channel: "AprinaLdy™",
-    duration: 3871,
-    duration_formatted: "1h 4m",
-    url: "https://soundcloud.com/aprinaldy-tm/manyao-indo-404-remix-2026",
-    artwork: "https://i1.sndcdn.com/artworks-5QpERKiDj6NcCdvQ-ST64EA-large.png"
+    "id": "2097088377",
+    "title": "《 Manyao Remix 2025 》跳楼机 ✘ 侧脸 ✘ 感谢你曾来过 ✘ 爱自己更深 ✘ Bowkylion",
+    "channel": "Ly Saa",
+    "duration": 4887,
+    "duration_formatted": "1h 21m",
+    "url": "https://soundcloud.com/melisa-landhy-714228889/manyao-remix-2025-by-henz-chen",
+    "artwork": "https://i1.sndcdn.com/artworks-1yQsklvAMwrlmmgd-RSEltA-large.jpg"
   },
   {
-    id: "2399645982",
-    title: "EXCLUSIVE MANYAO CHINESE REMIX 2026 HOT PLAYLIST",
-    channel: "MOMOPLAY",
-    duration: 4294,
-    duration_formatted: "1h 11m",
-    url: "https://soundcloud.com/momoplay-oficial/exclusive-manyao-chinese-remix",
-    artwork: "https://i1.sndcdn.com/artworks-RFJ2JqyPod18Mt8z-hi3Pnw-large.jpg"
+    "id": "2339868731",
+    "title": "SPECIAL MANYAO REMIX ANTI DROP 2026",
+    "channel": "BANGHO",
+    "duration": 9648,
+    "duration_formatted": "2h 40m",
+    "url": "https://soundcloud.com/bangho/special-manyao-remix-anti-drop",
+    "artwork": "https://i1.sndcdn.com/artworks-odGVkXnd67dXOZHc-TYrMHw-large.png"
   },
   {
-    id: "2399142171",
-    title: "Hai Yu Ni メ Tiao Lou Ji メ Wu Ren Zhi Dao メ MANYAO VINA ELECTRO BOUNCE REMIX 2026 By RAJAKING",
-    channel: "RAJAGROUP",
-    duration: 6342,
-    duration_formatted: "1h 45m",
-    url: "https://soundcloud.com/rajagroup/hai-yu-ni-tiao-lou-ji-wu-ren",
-    artwork: "https://i1.sndcdn.com/artworks-bK7qqvanlMISvEGH-VvvynQ-large.jpg"
+    "id": "2399645982",
+    "title": "EXCLUSIVE MANYAO CHINESE REMIX 2026 HOT PLAYLIST",
+    "channel": "MOMOPLAY",
+    "duration": 4294,
+    "duration_formatted": "1h 11m",
+    "url": "https://soundcloud.com/momoplay-oficial/exclusive-manyao-chinese-remix",
+    "artwork": "https://i1.sndcdn.com/artworks-RFJ2JqyPod18Mt8z-hi3Pnw-large.jpg"
   },
   {
-    id: "2169354729",
-    title: "MANYAO TERBARU REMIX 2025 SPECIAL REQ KIMMY",
-    channel: "Ervito Liu",
-    duration: 3750,
-    duration_formatted: "1h 2m",
-    url: "https://soundcloud.com/ervito-liu/manyao-nonstop-remix-2025",
-    artwork: "https://i1.sndcdn.com/artworks-LDOHTL5xK30Md2tV-uJ1gZg-large.jpg"
+    "id": "2301688244",
+    "title": "《 Manyao Remix 2026 》Pentagramma ✘ 跳楼机 ✘ 忘了 ✘ 偏向 ✘ Bowkylion 【 BY RINDUTOGEL】",
+    "channel": "JS GROUP",
+    "duration": 4959,
+    "duration_formatted": "1h 22m",
+    "url": "https://soundcloud.com/jsgroup/manyao-remix-2026-pentagramma",
+    "artwork": "https://i1.sndcdn.com/artworks-PX5kZOnY4pM1Fc3N-HRiEZQ-large.jpg"
   },
   {
-    id: "2382540123",
-    title: "CHOU LI X HAI YU NI MANYAO ELECTRO REMIX 2026",
-    channel: "MOMOPLAY",
-    duration: 4030,
-    duration_formatted: "1h 7m",
-    url: "https://soundcloud.com/momoplay-oficial/chou-li-x-hai-yu-ni-manyao",
-    artwork: "https://i1.sndcdn.com/artworks-JpN20vmZGeYJOeRY-8i1uPA-large.jpg"
+    "id": "2169354729",
+    "title": "MANYAO TERBARU REMIX 2025 SPECIAL REQ KIMMY (Ervito Liu)",
+    "channel": "Ervito Liu",
+    "duration": 3750,
+    "duration_formatted": "1h 2m",
+    "url": "https://soundcloud.com/ervito-liu/manyao-nonstop-remix-2025",
+    "artwork": "https://i1.sndcdn.com/artworks-LDOHTL5xK30Md2tV-uJ1gZg-large.jpg"
   },
   {
-    id: "2088329367",
-    title: "FULL JJ LIN & JAY CHOU ♪ DJ MANYAO REMIX FAVORIT SONG 2025 By Mr. Hau",
-    channel: "WnDy",
-    duration: 4979,
-    duration_formatted: "1h 22m",
-    url: "https://soundcloud.com/wandywi/full-jj-lin-jay-chou-dj-manyao-remix-favorit-song-2025-by-mr-hau",
-    artwork: "https://i1.sndcdn.com/artworks-N8dPBK3zwphQZeRo-abxiIg-large.png"
+    "id": "2369368496",
+    "title": "FAVORITE MANYAO REMIX COLLECTION | FULL MANDARIN SPECIAL REQ | MR. PAW",
+    "channel": "AprinaLdy™",
+    "duration": 3690,
+    "duration_formatted": "1h 1m",
+    "url": "https://soundcloud.com/aprinaldy-tm/favorite-manyao-remix",
+    "artwork": "https://i1.sndcdn.com/artworks-fJiBdGdlLUv88MBW-AxERzw-large.jpg"
   },
   {
-    id: "2276572058",
-    title: "MANYAO REMIX MANDARIN BARAT 2026 #JFZMIXTAPE",
-    channel: "JASON FLAMEBEATZ",
-    duration: 4480,
-    duration_formatted: "1h 14m",
-    url: "https://soundcloud.com/jason-flamebeatzz/manyao-remix-mandarin-barat",
-    artwork: "https://i1.sndcdn.com/artworks-gdH0xjCBvsdAHmyW-TI9P2w-large.png"
+    "id": "2092311390",
+    "title": "NONSTOP MANYAO REMIX INDOBAR 2025 REQ KIOS77",
+    "channel": "AprinaLdy™",
+    "duration": 4884,
+    "duration_formatted": "1h 21m",
+    "url": "https://soundcloud.com/aprinaldy-tm/nonstop-manyao-remix-indobar-2025-req-kios77",
+    "artwork": "https://i1.sndcdn.com/artworks-ptYcrXmeH0Bs3yo5-ykldsQ-large.png"
+  },
+  {
+    "id": "2314201793",
+    "title": "MANYAO REMIX 2026 SPECIAL REQ MR LD BY MALUKUTOTO",
+    "channel": "RAJAGROUP",
+    "duration": 7308,
+    "duration_formatted": "2h 1m",
+    "url": "https://soundcloud.com/rajagroup/manyao-remix-2026-special-req",
+    "artwork": "https://i1.sndcdn.com/artworks-BvAUrrx7dAhfohXx-arUXSg-large.jpg"
+  },
+  {
+    "id": "2168640663",
+    "title": "𝐁𝐄𝐑𝐋𝐈𝐍𝐓𝐎𝐓𝐎 MANYAO MANDARIN REMIX TERBARU 2025",
+    "channel": "AprinaLdy™",
+    "duration": 8005,
+    "duration_formatted": "2h 13m",
+    "url": "https://soundcloud.com/aprinaldy-tm/manyao-mandarin-remix-terbaru-2025",
+    "artwork": "https://i1.sndcdn.com/artworks-nZ7JFPFqibv8lyRF-uO71Rw-large.png"
+  },
+  {
+    "id": "1143033766",
+    "title": "Min Sen'z - MANYAO X BREAKBEAT - NEW REMIX 2020",
+    "channel": "Poker757",
+    "duration": 12598,
+    "duration_formatted": "3h 29m",
+    "url": "https://soundcloud.com/kasur-goyang/min-senz-manyao-x-breakbeat-new-remix-2020",
+    "artwork": "https://i1.sndcdn.com/artworks-jJwANtcMBIpJLHjF-5lZuWQ-large.jpg"
+  },
+  {
+    "id": "2382540123",
+    "title": "CHOU LI X HAI YU NI MANYAO ELECTRO REMIX 2026",
+    "channel": "MOMOPLAY",
+    "duration": 4030,
+    "duration_formatted": "1h 7m",
+    "url": "https://soundcloud.com/momoplay-oficial/chou-li-x-hai-yu-ni-manyao",
+    "artwork": "https://i1.sndcdn.com/artworks-JpN20vmZGeYJOeRY-8i1uPA-large.jpg"
+  },
+  {
+    "id": "2374113890",
+    "title": "BEST CHINESE MANYAO REMIX COLLECTION 2026 REQ CHIEN X CENCEN",
+    "channel": "HeNz CheN",
+    "duration": 3773,
+    "duration_formatted": "1h 2m",
+    "url": "https://soundcloud.com/henz_chen/best-chinese-manyao-remix",
+    "artwork": "https://i1.sndcdn.com/artworks-IHVkBIUozBVjySVa-9TyDsw-large.jpg"
+  },
+  {
+    "id": "1783084035",
+    "title": "MANYAO REMIX INDOBAR 2024",
+    "channel": "manyao edm",
+    "duration": 4127,
+    "duration_formatted": "1h 8m",
+    "url": "https://soundcloud.com/manyao-edm/manyao-remix-indobar-2024",
+    "artwork": "https://i1.sndcdn.com/artworks-zFnFPiAlAFuNVuaO-hZTMxQ-large.jpg"
+  },
+  {
+    "id": "1865213304",
+    "title": "Dj Chinese 郭火 ✘ 港号鱼箭你 Manyao Remix 2024 #160BPM #DJJ #RECORD",
+    "channel": "RAJAGROUP",
+    "duration": 4294,
+    "duration_formatted": "1h 11m",
+    "url": "https://soundcloud.com/rajagroup/dj-chinese-manyao-remix-2024-by-nonis77",
+    "artwork": "https://i1.sndcdn.com/artworks-EdTeqU9jAnd3G8Q3-99tzMA-large.jpg"
+  },
+  {
+    "id": "2351027435",
+    "title": "MANYAO SUPER HIGH REMIX  2026 BY RAJAKING",
+    "channel": "RAJAGROUP",
+    "duration": 10857,
+    "duration_formatted": "3h 0m",
+    "url": "https://soundcloud.com/rajagroup/manyao-super-high-remix-2026",
+    "artwork": "https://i1.sndcdn.com/artworks-yeF18kEC03ICHRii-UZRqGQ-large.png"
+  },
+  {
+    "id": "2399142171",
+    "title": "Hai Yu Ni メ Tiao Lou Ji メ Wu Ren Zhi Dao メ MANYAO VINA ELECTRO BOUNCE REMIX 2026 By RAJAKING",
+    "channel": "RAJAGROUP",
+    "duration": 6342,
+    "duration_formatted": "1h 45m",
+    "url": "https://soundcloud.com/rajagroup/hai-yu-ni-tiao-lou-ji-wu-ren",
+    "artwork": "https://i1.sndcdn.com/artworks-bK7qqvanlMISvEGH-VvvynQ-large.jpg"
+  },
+  {
+    "id": "2352913049",
+    "title": "MANYAO CHINESE SUPER REMIX 2026 BY MALUKUTOTO",
+    "channel": "RAJAGROUP",
+    "duration": 10987,
+    "duration_formatted": "3h 3m",
+    "url": "https://soundcloud.com/rajagroup/manyao-chinese-super-remix",
+    "artwork": "https://i1.sndcdn.com/artworks-zRvcdCj6mP1hg30x-jp71Wg-large.png"
+  },
+  {
+    "id": "2343045689",
+    "title": "SUPER MANYAO HIGH 167 BPM REMIX 2026 REQ SIA777",
+    "channel": "HeNz CheN",
+    "duration": 9332,
+    "duration_formatted": "2h 35m",
+    "url": "https://soundcloud.com/henz_chen/super-manyao-high-167-bpm",
+    "artwork": "https://i1.sndcdn.com/artworks-8Oq6SVnEEL1hMyQu-1RksCw-large.jpg"
+  },
+  {
+    "id": "2088329367",
+    "title": "FULL JJ LIN & JAY CHOU ♪ DJ MANYAO REMIX FAVORIT SONG 2025 By Mr. Hau",
+    "channel": "WnDy",
+    "duration": 4979,
+    "duration_formatted": "1h 22m",
+    "url": "https://soundcloud.com/wandywi/full-jj-lin-jay-chou-dj-manyao-remix-favorit-song-2025-by-mr-hau",
+    "artwork": "https://i1.sndcdn.com/artworks-N8dPBK3zwphQZeRo-abxiIg-large.png"
+  },
+  {
+    "id": "2279167010",
+    "title": "Breakbeat Mandarin Manyao Wo De Ge Sheng Li X Tiao Lou Ji New Remix 2026",
+    "channel": "ReyLimitless",
+    "duration": 3943,
+    "duration_formatted": "1h 5m",
+    "url": "https://soundcloud.com/reylimitless/breakbeat-mandarin-manyao-wo",
+    "artwork": "https://i1.sndcdn.com/artworks-CaaiLywlSArmczWy-1RGtbg-large.png"
+  },
+  {
+    "id": "1579893983",
+    "title": "MANYAO Chinese EDM Remix 2026",
+    "channel": "Mangga2Bet",
+    "duration": 9626,
+    "duration_formatted": "2h 40m",
+    "url": "https://soundcloud.com/wahbi-kopia/manyao-chinese-edm-remix-2023",
+    "artwork": "https://i1.sndcdn.com/artworks-6gW6ydrXoXgW3d66-56uH5A-large.jpg"
+  },
+  {
+    "id": "2331874988",
+    "title": "SUPER EXCLUSIVE MANYAO REMIX 2026 REQ ALEXEIFINLEY",
+    "channel": "HeNz CheN",
+    "duration": 5523,
+    "duration_formatted": "1h 32m",
+    "url": "https://soundcloud.com/henz_chen/super-exclusive-manyao-remix",
+    "artwork": "https://i1.sndcdn.com/artworks-2FlOyVz9grmOLspo-m2JoEw-large.jpg"
   }
 ];
 
@@ -139,7 +274,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadPlaylist();
 
   // Generate fresh random Manyao sets (>1 hr)
-  generateRandomTracks(10, false);
+  generateRandomTracks(25, false);
 });
 
 // ── Background Audio Keep-Alive & AudioSession ────────────────
@@ -322,12 +457,6 @@ function initSoundCloudWidget() {
   });
 
   widget.bind(SC.Widget.Events.FINISH, () => {
-    isPlaying = false;
-    stopAudioAnchor();
-    updatePlayPauseBtn();
-    if ('mediaSession' in navigator) {
-      navigator.mediaSession.playbackState = 'none';
-    }
     handleSongEnd();
   });
 
@@ -432,25 +561,14 @@ function playNext() {
   if (shuffleOn) {
     shufflePosition++;
     if (shufflePosition >= shuffleOrder.length) {
-      if (repeatMode === 'all') {
-        generateShuffleOrder();
-        shufflePosition = 0;
-      } else {
-        isPlaying = false;
-        updatePlayPauseBtn();
-        return;
-      }
+      generateShuffleOrder();
+      shufflePosition = 0;
     }
     playSong(shuffleOrder[shufflePosition]);
   } else {
     const next = currentIndex + 1;
     if (next >= playlist.length) {
-      if (repeatMode === 'all') {
-        playSong(0);
-      } else {
-        isPlaying = false;
-        updatePlayPauseBtn();
-      }
+      playSong(0);
     } else {
       playSong(next);
     }
@@ -608,7 +726,7 @@ function openWidget() {
 }
 
 // ── Search & Random Track Generator (> 1 hr) ─────────────────
-async function generateRandomTracks(count = 10, autoPlay = false) {
+async function generateRandomTracks(count = 25, autoPlay = false) {
   if (isGeneratingTracks) return;
   isGeneratingTracks = true;
 
@@ -1023,10 +1141,10 @@ function setupMediaSessionActionHandlers() {
 
 // ── Event Listeners ───────────────────────────────────────────
 function setupEventListeners() {
-  $('#btn-random').addEventListener('click', () => generateRandomTracks(10, true));
+  $('#btn-random').addEventListener('click', () => generateRandomTracks(25, true));
   const emptyBtn = $('#btn-empty-random');
   if (emptyBtn) {
-    emptyBtn.addEventListener('click', () => generateRandomTracks(10, true));
+    emptyBtn.addEventListener('click', () => generateRandomTracks(25, true));
   }
 
   $('#btn-play').addEventListener('click', togglePlayPause);
@@ -1101,7 +1219,7 @@ function setupEventListeners() {
     if (confirm('Clear the entire playlist?')) clearPlaylist();
   });
   $('#btn-reset').addEventListener('click', () => {
-    generateRandomTracks(10, true);
+    generateRandomTracks(25, true);
   });
 
   // WebKit AirPlay Target Availability Monitoring
@@ -1148,7 +1266,7 @@ function setupEventListeners() {
         openAddModal();
         break;
       case 'KeyG':
-        generateRandomTracks(10, true);
+        generateRandomTracks(25, true);
         break;
       case 'KeyV':
         toggleWidget();
